@@ -1,0 +1,18 @@
+To build and install the PlusGraph library and application, run:
+
+$ make
+$ sudo make install
+
+The installation process does the following:
+
+cp plusgraph /usr/bin
+cp libplusgraph.a /usr/lib
+cp plusgraph.h /usr/include
+
+To uninstall PlusGraph, run:
+
+$ sudo make uninstall
+
+To clean, run:
+
+$ make clean
