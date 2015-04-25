@@ -3,6 +3,8 @@ To build and install the PlusGraph library and application, run:
 $ make
 $ sudo make install
 
+In order to build the PlusGraph application, you need the PlusCalc library, which can be found at https://github.com/jansky/PlusCalc
+
 The installation process does the following:
 
 cp plusgraph /usr/bin
